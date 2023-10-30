@@ -33,7 +33,7 @@ public abstract class Hero implements HavingSuperAbility {
         this.superAbility = superAbilityType;
     }
 
-    // Реализация метода из интерфейса HavingSuperAbility
+
     @Override
     public void applySuperAbility() {
         System.out.println("Hero is using " + superAbility);
